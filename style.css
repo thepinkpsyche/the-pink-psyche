@@ -56,7 +56,7 @@ header {
 
 /* Hero Banner */
 .banner {
-  background-image: url("../assets/The Pink Psyche.png");
+  background-image: url("./assets/The Pink Psyche.png");
   height: 80vh;
   background-position: bottom;
   background-size: cover;
@@ -195,23 +195,23 @@ main button {
 }
 
 .category-box.travel {
-    background-image: url(../assets/Travel-Russia.jpeg);
+    background-image: url(./assets/Travel-Russia.jpeg);
 }
 
 .category-box.books {
-    background-image: url(../assets/reading-book.png);
+    background-image: url(./assets/reading-book.png);
 }
 
 .category-box.consciousness {
-    background-image: url(../assets/consciousness.jpeg);
+    background-image: url(./assets/consciousness.jpeg);
 }
 
 .category-box.enco {
-    background-image: url(../assets/Travel-Russia.jpeg);
+    background-image: url(./assets/Travel-Russia.jpeg);
 }
 
 .category-box.howtodo {
-    background-image: url(../assets/TPP\ 1.jpeg);
+    background-image: url(./assets/TPP\ 1.jpeg);
 }
 
 
