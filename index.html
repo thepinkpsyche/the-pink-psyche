@@ -3,6 +3,9 @@
 <head>
     <title>Home - The Pink Psyche</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -18,32 +21,32 @@
         </div>
         <hr />
     </header>
-    <div class="banner">
-        <div class="banner-text">
+    <div class="banner scroll-fade">
+        <div class="banner-text scroll-fade">
             <h1>God, Goals, Glowing & Growing</h1>
             <i>Chase Friction, Relentlessly</i>
-            <button class="banner-btn">Discover More</button>
         </div>
+            <button>Discover More</button>
     </div>
     <main>
-        <div class="bg-1">
+        <div class="bg-1 scroll-fade">
             <h1>My Real Competition? Your Self Sabotage</h1>
         </div>
-        <div class="journey">
-            <img src="./assets/TPP 1.jpeg" class="tpp1">
+        <div class="journey scroll-fade">
+            <img src="../assets/TPP 1.jpeg" class="tpp1">
             <p class="journey-text">
                 For the women who are done with burnout, breadcrumb confidence, and identity confusion,
                 this is where you shift the self-sabotage, claim your power, and move like you already are the woman you dream of being.
             </p>
             <button>Start Your Journey</button>
         </div>
-        <div class="bg-2">
+        <div class="bg-2 scroll-fade">
             <marquee class="courage-marquee" behavior="scroll" direction="left" scrollamount="10" loop="infinite">
   COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE COURAGE
             </marquee>
         </div>
-        <div class="learn-more">
-            <video class="tpp2" autoplay muted loop src="./assets/TPP WS VDO.mp4" type="video/mp4"></video>
+        <div class="learn-more scroll-fade">
+            <video class="tpp2" autoplay muted loop src="../assets/TPP WS VDO.mp4" type="video/mp4"></video>
             <i>We don't just heal—we level up, take names, and look damn good doing it.</i><br />
             <p class="learn-more-text">
                 I know what it feels like to be held back by fear. But here's the truth: Courage is a choice.
@@ -51,13 +54,135 @@
             </p>
             <button>Learn More & Shake it up</button>
         </div>
-        <div class="bg-2">
+        <div class="bg-2 scroll-fade">
             <marquee class="courage-marquee" behavior="scroll" direction="left" scrollamount="10" loop="infinite">
   RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE RESILIENCE 
             </marquee>
         </div>
+        <div class="about-me scroll-fade">
+            <img src="../assets/Founder of TPP.png" alt="Harsha Dabas - Founder of The Pink Psyche" class="HD-Img">
+            <div class="text-about">
+                <h2>Meet Our Founder</h2>
+                <p>There was a time when my tears felt endless and my future was a blank page. But sometimes, the darkest moments spark the brightest change.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis dignissim mauris. Proin eget erat et enim lacinia tempus vel pharetra mi. In tempus, libero et consectetur gravida, mi leo gravida quam, vitae condimentum quam enim quis nisl. Aenean in porta sapien, vel varius felis. Etiam erat eros, ultricies dictum aliquam et, blandit in sapien. Vivamus eget suscipit erat. Maecenas pharetra aliquam urna at congue. Suspendisse tempor, tellus a suscipit lobortis, sapien dolor viverra mi, sed pretium orci dolor eu lectus.
+            </div>
+        </div>
+        <div class="article scroll-fade">
+            <h2>Articles Category</h2>
+        </div>
+        <div class="category-container scroll-fade">
+            <div class="category-box travel" data-id="travel">
+                <h3>Travel</h3>
+                <div class="category-content">
+                <!-- <p>Introduction to How to Do</p> -->
+                <!-- <ul>
+                    <li>How to meditate</li>
+                    <li>How to journal</li>
+                    <li>How to stay calm</li>
+                </ul> -->
+                </div>
+            </div>
+            <div class="category-box books" data-id="books">
+                <h3>Books</h3>
+                <div class="category-content">
+                <!-- <p>Introduction to How to Do</p> -->
+                <!-- <ul>
+                    <li>How to meditate</li>
+                    <li>How to journal</li>
+                    <li>How to stay calm</li>
+                </ul> -->
+                </div>
+            </div>
+            <div class="category-box consciousness" data-id="consciousness">
+                <h3>Consciousness</h3>
+                <div class="category-content">
+                <!-- <p>Introduction to How to Do</p> -->
+                <!-- <ul>
+                    <li>How to meditate</li>
+                    <li>How to journal</li>
+                    <li>How to stay calm</li>
+                </ul> -->
+                </div>
+            </div>
+            <div class="category-box enco" data-id="encouragement">
+                <h3>Encouragement</h3>
+                <div class="category-content">
+                <!-- <p>Introduction to How to Do</p> -->
+                <!-- <ul>
+                    <li>How to meditate</li>
+                    <li>How to journal</li>
+                    <li>How to stay calm</li>
+                </ul> -->
+                </div>
+            </div>
+            <div class="category-box active howtodo" data-id="howtodo">
+                <h3>How to Do</h3>
+                <div class="category-content">
+                <!-- <p>Introduction to How to Do</p> -->
+                <!-- <ul>
+                    <li>How to meditate</li>
+                    <li>How to journal</li>
+                    <li>How to stay calm</li>
+                </ul> -->
+                </div>
+            </div>
+            <script>
+               const boxes = document.querySelectorAll('.category-box');
+                boxes.forEach(box => {
+                box.addEventListener('mouseenter', () => {
+                boxes.forEach(b => b.classList.remove('active'));
+                box.classList.add('active');
+                    });
+                });
+            </script>
+        </div>
+        <section class="contact-section scroll-fade">
+            <h2>Contact Us</h2>
+            <div class="contact-wrapper">
+            <div class="map-container">
+                <div id="map"></div>
+            </div>
+
+            <form id="contact-form" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email" required />
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+                <p id="response-message"></p>
+            </form>
+            </div>
+
+            <!-- Add this script and style just once at the bottom of your page (outside section) -->
+            <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+            />
+            <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+            <script>
+            const lat = 28.6139;
+            const lng = 77.2090;
+
+            const map = L.map('map').setView([lat, lng], 13);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors',
+            }).addTo(map);
+            L.marker([lat, lng]).addTo(map).bindPopup('Our Office Location').openPopup();
+            </script>
+        </section>
     </main>
     
     <footer>© 2025 The Pink Psyche</footer>
+    <script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  });
+
+  document.querySelectorAll('.scroll-fade').forEach(el => observer.observe(el));
+</script>
+
 </body>
 </html>
