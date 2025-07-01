@@ -6,6 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <body>
     <header>
@@ -13,10 +15,10 @@
             <div class="logo">The Pink Psyche</div>
             <nav class="navbar">
                 <a href="index.html">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="contact.html">Contact</a>
-                <a href="newsletter.html">Newsletter</a>
-                <a href="community.html">Join Community</a>
+                <a href="#categories">Categories</a>
+                <a href="mailto:bhupeshmadaan56@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                <a href="https://instagram.com/bhupesh_madaan" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/+918882488947" target="_blank"><i class="fab fa-whatsapp"></i></a>
             </nav>
         </div>
         <hr />
@@ -33,7 +35,7 @@
             <h1>My Real Competition? Your Self Sabotage</h1>
         </div>
         <div class="journey scroll-fade">
-            <img src="./assets/TPP 1.jpeg" class="tpp1">
+            <img src="../assets/TPP 1.jpeg" class="tpp1">
             <p class="journey-text">
                 For the women who are done with burnout, breadcrumb confidence, and identity confusion,
                 this is where you shift the self-sabotage, claim your power, and move like you already are the woman you dream of being.
@@ -46,7 +48,7 @@
             </marquee>
         </div>
         <div class="learn-more scroll-fade">
-            <video class="tpp2" autoplay muted loop src="./assets/TPP WS VDO.mp4" type="video/mp4"></video>
+            <video class="tpp2" autoplay muted loop src="../assets/TPP WS VDO.mp4" type="video/mp4"></video>
             <i>We don't just heal—we level up, take names, and look damn good doing it.</i><br />
             <p class="learn-more-text">
                 I know what it feels like to be held back by fear. But here's the truth: Courage is a choice.
@@ -60,18 +62,18 @@
             </marquee>
         </div>
         <div class="about-me scroll-fade">
-            <img src="./assets/Founder of TPP.png" alt="Harsha Dabas - Founder of The Pink Psyche" class="HD-Img">
+            <img src="../assets/Founder of TPP.png" alt="Harsha Dabas - Founder of The Pink Psyche" class="HD-Img">
             <div class="text-about">
                 <h2>Meet Our Founder</h2>
                 <p>There was a time when my tears felt endless and my future was a blank page. But sometimes, the darkest moments spark the brightest change.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis dignissim mauris. Proin eget erat et enim lacinia tempus vel pharetra mi. In tempus, libero et consectetur gravida, mi leo gravida quam, vitae condimentum quam enim quis nisl. Aenean in porta sapien, vel varius felis. Etiam erat eros, ultricies dictum aliquam et, blandit in sapien. Vivamus eget suscipit erat. Maecenas pharetra aliquam urna at congue. Suspendisse tempor, tellus a suscipit lobortis, sapien dolor viverra mi, sed pretium orci dolor eu lectus.
             </div>
         </div>
-        <div class="article scroll-fade">
+        <div class="article scroll-fade" id="categories">
             <h2>Articles Category</h2>
         </div>
         <div class="category-container scroll-fade">
-            <div class="category-box travel" data-id="travel">
+            <div class="category-box travel" onclick="window.location.href='blogs.html#travel'">
                 <h3>Travel</h3>
                 <div class="category-content">
                 <!-- <p>Introduction to How to Do</p> -->
@@ -82,7 +84,7 @@
                 </ul> -->
                 </div>
             </div>
-            <div class="category-box books" data-id="books">
+            <div class="category-box books" onclick="window.location.href='blogs.html#books'">
                 <h3>Books</h3>
                 <div class="category-content">
                 <!-- <p>Introduction to How to Do</p> -->
@@ -93,7 +95,7 @@
                 </ul> -->
                 </div>
             </div>
-            <div class="category-box consciousness" data-id="consciousness">
+            <div class="category-box consciousness" onclick="window.location.href='blogs.html#consciousness'">
                 <h3>Consciousness</h3>
                 <div class="category-content">
                 <!-- <p>Introduction to How to Do</p> -->
@@ -104,7 +106,7 @@
                 </ul> -->
                 </div>
             </div>
-            <div class="category-box enco" data-id="encouragement">
+            <div class="category-box enco" onclick="window.location.href='blogs.html#encouragement'">
                 <h3>Encouragement</h3>
                 <div class="category-content">
                 <!-- <p>Introduction to How to Do</p> -->
@@ -115,7 +117,7 @@
                 </ul> -->
                 </div>
             </div>
-            <div class="category-box active howtodo" data-id="howtodo">
+            <div class="category-box active howtodo" onclick="window.location.href='blogs.html#howtodo'">
                 <h3>How to Do</h3>
                 <div class="category-content">
                 <!-- <p>Introduction to How to Do</p> -->
