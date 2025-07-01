@@ -1,4 +1,7 @@
 /* Reset and Base Styles */
+html {
+  scroll-behaviour: smooth;
+}
 * {
   margin: 0;
   padding: 0;
