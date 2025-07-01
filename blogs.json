@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "category": "Travel",
+    "featured_img": "https://imgs.search.brave.com/cHpTkw_-0GCX7G9M4ddP4dXTLkXA9R7mG1mI_RpZSQc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA2Lzk2LzI0LzQy/LzM2MF9GXzY5NjI0/NDI5OF8wNjYyaUlt/T0txdm81V0xCUWR1/ZVM2cnRaSTIyNUlB/cS5qcGc",
+    "title": "Lorem Ipsum",
+    "Paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis dignissim mauris. Proin eget erat et enim lacinia tempus vel pharetra mi. In tempus, libero et consectetur gravida, mi leo gravida quam, vitae condimentum quam enim quis nisl. Aenean in porta sapien, vel varius felis. Etiam erat eros, ultricies dictum aliquam et, blandit in sapien. Vivamus eget suscipit erat. Maecenas pharetra aliquam urna at congue. Suspendisse tempor, tellus a suscipit lobortis, sapien dolor viverra mi, sed pretium orci dolor eu lectus.",
+    "Frst_Head": "Lorem Ipsum Again",
+    "Frst_Img": "https://imgs.search.brave.com/cHpTkw_-0GCX7G9M4ddP4dXTLkXA9R7mG1mI_RpZSQc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA2Lzk2LzI0LzQy/LzM2MF9GXzY5NjI0/NDI5OF8wNjYyaUlt/T0txdm81V0xCUWR1/ZVM2cnRaSTIyNUlB/cS5qcGc",
+    "Frst_Para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis dignissim mauris. Proin eget erat et enim lacinia tempus vel pharetra mi. In tempus, libero et consectetur gravida, mi leo gravida quam, vitae condimentum quam enim quis nisl. Aenean in porta sapien, vel varius felis. Etiam erat eros, ultricies dictum aliquam et, blandit in sapien. Vivamus eget suscipit erat. Maecenas pharetra aliquam urna at congue. Suspendisse tempor, tellus a suscipit lobortis, sapien dolor viverra mi, sed pretium orci dolor eu lectus.",
+    "Scnd_Head": "",
+    "Scnd_Img": "",
+    "Scnd_Para": ""
+  },
+  {
+    "id": 2,
+    "category": "Encouragement",
+    "featured_img": "https://imgs.search.brave.com/cHpTkw_-0GCX7G9M4ddP4dXTLkXA9R7mG1mI_RpZSQc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA2Lzk2LzI0LzQy/LzM2MF9GXzY5NjI0/NDI5OF8wNjYyaUlt/T0txdm81V0xCUWR1/ZVM2cnRaSTIyNUlB/cS5qcGc",
+    "title": "Donec nec",
+    "Paragraph": "Donec nec tempus quam, eget iaculis tortor. Integer feugiat ac dolor nec imperdiet. Curabitur eget turpis ac velit posuere pretium sed in velit. Nam at elit iaculis, sollicitudin sapien posuere, interdum risus. Sed hendrerit lorem quis arcu imperdiet, nec tristique arcu elementum. Aenean feugiat elit id nibh laoreet, quis tincidunt ante pulvinar. Morbi vitae mauris in lorem vehicula hendrerit eget placerat nisi. Donec vel orci quam. Duis eget nisi et nibh sodales laoreet quis quis risus. Cras rhoncus efficitur finibus. Fusce at justo sed mauris luctus faucibus. Aliquam ut varius eros, in consectetur elit. Donec nec ex interdum, fringilla nisl et, ultrices massa. Phasellus non ornare purus.",
+    "Frst_Head": "Donec-1",
+    "Frst_Img": "",
+    "Frst_Para": "",
+    "Scnd_Head": "",
+    "Scnd_Img": "",
+    "Scnd_Para": ""
+  },
+  {
+    "id": 3,
+    "category": "Travel",
+    "featured_img": "https://imgs.search.brave.com/cHpTkw_-0GCX7G9M4ddP4dXTLkXA9R7mG1mI_RpZSQc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA2Lzk2LzI0LzQy/LzM2MF9GXzY5NjI0/NDI5OF8wNjYyaUlt/T0txdm81V0xCUWR1/ZVM2cnRaSTIyNUlB/cS5qcGc",
+    "title": "Nulla Pulvinar",
+    "Paragraph": "Nulla pulvinar nunc in est ornare lobortis. Ut iaculis ipsum ac diam pretium, quis tincidunt nisl cursus. Integer auctor justo odio, a sodales turpis hendrerit et. Proin et purus condimentum velit dignissim condimentum. Suspendisse consequat nisi odio, ut varius justo suscipit eget. Sed condimentum elementum est at condimentum. Duis fringilla suscipit malesuada. Vivamus ac varius dolor.",
+    "Frst_Head": "Nulla-1",
+    "Frst_Img": "",
+    "Frst_Para": "Nulla pulvinar nunc in est ornare lobortis. Ut iaculis ipsum ac diam pretium, quis tincidunt nisl cursus. Integer auctor justo odio, a sodales turpis hendrerit et. Proin et purus condimentum velit dignissim condimentum. Suspendisse consequat nisi odio, ut varius justo suscipit eget. Sed condimentum elementum est at condimentum. Duis fringilla suscipit malesuada. Vivamus ac varius dolor.\n",
+    "Scnd_Head": "",
+    "Scnd_Img": "https://imgs.search.brave.com/cHpTkw_-0GCX7G9M4ddP4dXTLkXA9R7mG1mI_RpZSQc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA2Lzk2LzI0LzQy/LzM2MF9GXzY5NjI0/NDI5OF8wNjYyaUlt/T0txdm81V0xCUWR1/ZVM2cnRaSTIyNUlB/cS5qcGc",
+    "Scnd_Para": ""
+  },
+  {
+    "id": 4,
+    "category": "Books",
+    "featured_img": "https://imgs.search.brave.com/cHpTkw_-0GCX7G9M4ddP4dXTLkXA9R7mG1mI_RpZSQc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA2Lzk2LzI0LzQy/LzM2MF9GXzY5NjI0/NDI5OF8wNjYyaUlt/T0txdm81V0xCUWR1/ZVM2cnRaSTIyNUlB/cS5qcGc",
+    "title": "Quisque Max",
+    "Paragraph": "Quisque maximus velit quis odio tincidunt viverra. Pellentesque tristique mi metus, quis scelerisque libero rhoncus sit amet. Nulla porttitor semper magna id aliquam. Nam nisl odio, ornare ac mi quis, dictum fringilla velit. Aenean mauris eros, feugiat a luctus sed, tristique et lectus. Nunc imperdiet, metus eu ultrices condimentum, leo quam rutrum odio, non fermentum purus libero consectetur enim. Nullam vel dolor ut nisl fermentum fringilla non ac purus. Proin ex tortor, pharetra in ornare sit amet, porta in nunc. Duis maximus pellentesque tellus. Mauris dictum id est nec egestas. Praesent eget sapien commodo, interdum elit ac, aliquam sem. Integer blandit sem eget turpis fringilla venenatis. Cras nec urna quis dolor ultrices porta.",
+    "Frst_Head": "Quisque-1",
+    "Frst_Img": "",
+    "Frst_Para": "",
+    "Scnd_Head": "Curabitr Porta-2",
+    "Scnd_Img": "",
+    "Scnd_Para": "\nCurabitur porta placerat dapibus. Proin dignissim ut ex posuere pellentesque. In tempus ex et vulputate dictum. Mauris faucibus nec magna nec dignissim. Cras pellentesque dignissim erat nec semper. Nam et sodales eros, in auctor sapien. Donec tincidunt condimentum dui sed iaculis. Mauris volutpat suscipit est ac mollis. Sed in luctus tellus. Nunc ultrices nisl nec pharetra aliquet. Ut faucibus felis neque, posuere volutpat justo posuere eu. Nunc ac arcu a ex vehicula volutpat nec vel urna. Ut eu lacus a nulla dapibus consequat sit amet in diam."
+  }
+]

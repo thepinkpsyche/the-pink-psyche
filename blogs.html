@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blogs</title>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { width: 198vh; margin: 0; font-family: sans-serif; }
+
+    header {
+      background-color: #F9F9F1;
+      padding: 10px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: 100%;
+    }
+
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1500px;
+      margin: auto;
+    }
+
+    .logo {
+      font-size: 50px;
+      font-family: "Playfair Display";
+      font-weight: bold;
+      color: #0f5101;
+    }
+
+    .navbar a {
+      color: #444;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .navbar a:hover { color: #d63384; }
+    .navbar i {
+      font-size: 20px;
+      margin-left: 15px;
+      color: #444;
+      transition: color 0.3s;
+    }
+    .navbar i:hover { color: #d63384; }
+
+    .blog-section {
+      padding: 60px 20px;
+      width: 100%;
+      max-width: 100%;
+      margin: auto;
+    }
+
+    .blog-section h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #0f5101;
+      text-align: left;
+    }
+
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .blog-card {
+      background-color: #F9F9F1;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      overflow: hidden;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .blog-card h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .blog-card p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .carousel-wrapper {
+      position: relative;
+      max-width: 90vw;
+      margin: auto;
+    }
+
+    .slideshow {
+      width: 100%;
+      max-height: 500px;
+      object-fit: cover;
+      display: none;
+    }
+
+    .slideshow.active {
+      display: block;
+    }
+
+    .dropdown { position: relative; display: inline-block; }
+    .dropbtn { cursor: pointer; }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: #444;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #eaeaea;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <div class="logo">The Pink Psyche</div>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+          <a class="dropbtn">Categories ▾</a>
+          <div class="dropdown-content">
+            <a href="#travel">Travel</a>
+            <a href="#books">Books</a>
+            <a href="#consciousness">Consciousness</a>
+            <a href="#encouragement">Encouragement</a>
+            <a href="#howtodo">How to do?</a>
+          </div>
+        </div>
+        <a href="mailto:bhupeshmadaan56@email.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        <a href="https://instagram.com/bhupesh_madaan" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/+918882488947" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </nav>
+    </div>
+    <hr />
+  </header>
+
+  <!-- Slideshow -->
+  <div style="text-align: center; padding: 40px 20px; background-color: #fefefe;">
+    <h1 style="font-size: 40px; font-family: 'Playfair Display'; color: #0f5101;">Issue 01</h1>
+    <h2 style="font-size: 28px; color: #444;">The Pink Psyche</h2>
+
+    <div class="carousel-wrapper">
+      <a href="blog.html?id=1"><img class="slideshow active" src="../assets/Travel-Russia.jpeg" alt="Blog 1"></a>
+      <a href="blog.html?id=2"><img class="slideshow" src="../assets/consciousness.jpeg" alt="Blog 2"></a>
+      <a href="blog.html?id=3"><img class="slideshow" src="../assets/roman-art1.jpeg" alt="Blog 3"></a>
+    </div>
+  </div>
+
+  <script>
+    const slides = document.querySelectorAll(".slideshow");
+    let index = 0;
+
+    function showSlide(i) {
+      slides.forEach((slide, idx) => {
+        slide.classList.toggle("active", idx === i);
+      });
+    }
+
+    setInterval(() => {
+      index = (index + 1) % slides.length;
+      showSlide(index);
+    }, 4000);
+  </script>
+
+  <!-- Dynamic Blog Sections -->
+  <section id="travel" class="blog-section">
+    <h2>Travel Blogs</h2>
+    <div class="blog-grid" id="grid-travel"></div>
+  </section>
+
+  <section id="books" class="blog-section">
+    <h2>Book Recommendations</h2>
+    <div class="blog-grid" id="grid-books"></div>
+  </section>
+
+  <section id="consciousness" class="blog-section">
+    <h2>Consciousness</h2>
+    <div class="blog-grid" id="grid-consciousness"></div>
+  </section>
+
+  <section id="encouragement" class="blog-section">
+    <h2>Encouragement</h2>
+    <div class="blog-grid" id="grid-encouragement"></div>
+  </section>
+
+  <section id="howtodo" class="blog-section">
+    <h2>How to do?</h2>
+    <div class="blog-grid" id="grid-howtodo"></div>
+  </section>
+
+  <!-- Load blogs from blogs.json -->
+  <script>
+    fetch('blogs.json')
+      .then(res => res.json())
+      .then(data => {
+        const categoryMap = {
+          'Travel': 'grid-travel',
+          'Books': 'grid-books',
+          'Consciousness': 'grid-consciousness',
+          'Encouragement': 'grid-encouragement',
+          'How to do?': 'grid-howtodo'
+        };
+
+        data.forEach(blog => {
+          const gridId = categoryMap[blog.category.trim()];
+          const section = document.getElementById(gridId);
+          if (!section) return;
+
+          const card = document.createElement('div');
+          card.className = 'blog-card';
+          card.innerHTML = `
+            <a href="blog.html?id=${blog.id}" style="text-decoration: none; color: inherit;">
+              <img src="${blog.featured_img}" alt="${blog.title}" style="width:100%; height:180px; object-fit:cover;" />
+              <h3>${blog.title}</h3>
+              <p>${blog.Paragraph || ''}</p>
+            </a>
+          `;
+          section.appendChild(card);
+        });
+      })
+      .catch(err => {
+        console.error("❌ Error loading blogs.json:", err);
+      });
+  </script>
+
+  <!-- FontAwesome for icons -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</body>
+</html>

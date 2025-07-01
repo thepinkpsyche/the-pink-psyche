@@ -1,0 +1,39 @@
+<!-- Example inside blog.html -->
+<h1 id="Title"></h1>
+<img id="Featured-Img" style="width:100%; height:auto; margin-bottom:20px;" />
+<div id="blog-content"></div>
+
+<script>
+  const blogId = new URLSearchParams(window.location.search).get("id");
+
+  fetch("blogs.json")
+    .then(response => response.json())
+    .then(data => {
+      const blog = data.find(entry => entry.id == blogId);
+      if (!blog) {
+        document.getElementById("Title").innerText = "Blog not found";
+        return;
+      }
+
+      // Set blog content
+      document.getElementById("Title").innerText = blog.title || "Untitled";
+      document.getElementById("Featured-Img").src = blog.featured_img || "";
+
+      let content = `
+        ${blog.Paragraph ? `<p>${blog.Paragraph}</p>` : ''}
+        ${blog.Frst_Head ? `<h2>${blog.Frst_Head}</h2>` : ''}
+        ${blog.Frst_Para ? `<p>${blog.Frst_Para}</p>` : ''}
+        ${blog.Frst_Img ? `<img src="${blog.Frst_Img}" alt="" style="width:100%; margin-bottom:20px;" />` : ''}
+        
+        ${blog.Scnd_Head ? `<h2>${blog.Scnd_Head}</h2>` : ''}
+        ${blog.Scnd_Para ? `<p>${blog.Scnd_Para}</p>` : ''}
+        ${blog.Scnd_Img ? `<img src="${blog.Scnd_Img}" alt="" style="width:100%; margin-bottom:20px;" />` : ''}
+      `;
+
+      document.getElementById("blog-content").innerHTML = content;
+    })
+    .catch(error => {
+      console.error("Error loading blog data:", error);
+      document.getElementById("Title").innerText = "Failed to load blog.";
+    });
+</script>
